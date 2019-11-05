@@ -1,0 +1,193 @@
+geo,racial group,topic,topic_type,filename,conj
+National,Asian Alone,Limited English Proficiency,speak another language,LEP,that
+National,NHPI Alone,Limited English Proficiency,speak another language,LEP,that
+National,Black Alone,Limited English Proficiency,speak another language,LEP,that
+National,Non-Hispanic White Alone,Limited English Proficiency,speak another language,LEP,that
+National,Latino Alone,Limited English Proficiency,speak another language,LEP,that
+National,AIAN Alone,Limited English Proficiency,speak another language,LEP,that
+State,Asian Alone,Limited English Proficiency,speak another language,LEP,that
+State,NHPI Alone,Limited English Proficiency,speak another language,LEP,that
+State,Black Alone,Limited English Proficiency,speak another language,LEP,that
+State,Non-Hispanic White Alone,Limited English Proficiency,speak another language,LEP,that
+State,Latino Alone,Limited English Proficiency,speak another language,LEP,that
+State,AIAN Alone,Limited English Proficiency,speak another language,LEP,that
+County,Asian Alone,Limited English Proficiency,speak another language,LEP,that
+County,NHPI Alone,Limited English Proficiency,speak another language,LEP,that
+County,Black Alone,Limited English Proficiency,speak another language,LEP,that
+County,Non-Hispanic White Alone,Limited English Proficiency,speak another language,LEP,that
+County,Latino Alone,Limited English Proficiency,speak another language,LEP,that
+County,AIAN Alone,Limited English Proficiency,speak another language,LEP,that
+Congressional District,Asian Alone,Limited English Proficiency,speak another language,LEP,that
+Congressional District,NHPI Alone,Limited English Proficiency,speak another language,LEP,that
+Congressional District,Black Alone,Limited English Proficiency,speak another language,LEP,that
+Congressional District,Non-Hispanic White Alone,Limited English Proficiency,speak another language,LEP,that
+Congressional District,Latino Alone,Limited English Proficiency,speak another language,LEP,that
+Congressional District,AIAN Alone,Limited English Proficiency,speak another language,LEP,that
+National,Asian Alone,Education,Some College or AA,edu,with
+National,NHPI Alone,Education,Some College or AA,edu,with
+National,Black Alone,Education,Some College or AA,edu,with
+National,Non-Hispanic White Alone,Education,Some College or AA,edu,with
+National,Latino Alone,Education,Some College or AA,edu,with
+National,AIAN Alone,Education,Some College or AA,edu,with
+State,Asian Alone,Education,Some College or AA,edu,with
+State,NHPI Alone,Education,Some College or AA,edu,with
+State,Black Alone,Education,Some College or AA,edu,with
+State,Non-Hispanic White Alone,Education,Some College or AA,edu,with
+State,Latino Alone,Education,Some College or AA,edu,with
+State,AIAN Alone,Education,Some College or AA,edu,with
+County,Asian Alone,Education,Some College or AA,edu,with
+County,NHPI Alone,Education,Some College or AA,edu,with
+County,Black Alone,Education,Some College or AA,edu,with
+County,Non-Hispanic White Alone,Education,Some College or AA,edu,with
+County,Latino Alone,Education,Some College or AA,edu,with
+County,AIAN Alone,Education,Some College or AA,edu,with
+Congressional District,Asian Alone,Education,Some College or AA,edu,with
+Congressional District,NHPI Alone,Education,Some College or AA,edu,with
+Congressional District,Black Alone,Education,Some College or AA,edu,with
+Congressional District,Non-Hispanic White Alone,Education,Some College or AA,edu,with
+Congressional District,Latino Alone,Education,Some College or AA,edu,with
+Congressional District,AIAN Alone,Education,Some College or AA,edu,with
+National,Asian Alone,Poverty,Below Poverty,poverty,that live
+National,NHPI Alone,Poverty,Below Poverty,poverty,that live
+National,Black Alone,Poverty,Below Poverty,poverty,that live
+National,Non-Hispanic White Alone,Poverty,Below Poverty,poverty,that live
+National,Latino Alone,Poverty,Below Poverty,poverty,that live
+National,AIAN Alone,Poverty,Below Poverty,poverty,that live
+State,Asian Alone,Poverty,Below Poverty,poverty,that live
+State,NHPI Alone,Poverty,Below Poverty,poverty,that live
+State,Black Alone,Poverty,Below Poverty,poverty,that live
+State,Non-Hispanic White Alone,Poverty,Below Poverty,poverty,that live
+State,Latino Alone,Poverty,Below Poverty,poverty,that live
+State,AIAN Alone,Poverty,Below Poverty,poverty,that live
+County,Asian Alone,Poverty,Below Poverty,poverty,that live
+County,NHPI Alone,Poverty,Below Poverty,poverty,that live
+County,Black Alone,Poverty,Below Poverty,poverty,that live
+County,Non-Hispanic White Alone,Poverty,Below Poverty,poverty,that live
+County,Latino Alone,Poverty,Below Poverty,poverty,that live
+County,AIAN Alone,Poverty,Below Poverty,poverty,that live
+Congressional District,Asian Alone,Poverty,Below Poverty,poverty,that live
+Congressional District,NHPI Alone,Poverty,Below Poverty,poverty,that live
+Congressional District,Black Alone,Poverty,Below Poverty,poverty,that live
+Congressional District,Non-Hispanic White Alone,Poverty,Below Poverty,poverty,that live
+Congressional District,Latino Alone,Poverty,Below Poverty,poverty,that live
+Congressional District,AIAN Alone,Poverty,Below Poverty,poverty,that live
+National,Asian Alone,Health Insurance Coverage,No Insurance,insurance,
+National,NHPI Alone,Health Insurance Coverage,No Insurance,insurance,with
+National,Black Alone,Health Insurance Coverage,No Insurance,insurance,with
+National,Non-Hispanic White Alone,Health Insurance Coverage,No Insurance,insurance,with
+National,Latino Alone,Health Insurance Coverage,No Insurance,insurance,with
+National,AIAN Alone,Health Insurance Coverage,No Insurance,insurance,with
+State,Asian Alone,Health Insurance Coverage,No Insurance,insurance,with
+State,NHPI Alone,Health Insurance Coverage,No Insurance,insurance,with
+State,Black Alone,Health Insurance Coverage,No Insurance,insurance,with
+State,Non-Hispanic White Alone,Health Insurance Coverage,No Insurance,insurance,with
+State,Latino Alone,Health Insurance Coverage,No Insurance,insurance,with
+State,AIAN Alone,Health Insurance Coverage,No Insurance,insurance,with
+County,Asian Alone,Health Insurance Coverage,No Insurance,insurance,with
+County,NHPI Alone,Health Insurance Coverage,No Insurance,insurance,with
+County,Black Alone,Health Insurance Coverage,No Insurance,insurance,with
+County,Non-Hispanic White Alone,Health Insurance Coverage,No Insurance,insurance,with
+County,Latino Alone,Health Insurance Coverage,No Insurance,insurance,with
+County,AIAN Alone,Health Insurance Coverage,No Insurance,insurance,with
+Congressional District,Asian Alone,Health Insurance Coverage,No Insurance,insurance,with
+Congressional District,NHPI Alone,Health Insurance Coverage,No Insurance,insurance,with
+Congressional District,Black Alone,Health Insurance Coverage,No Insurance,insurance,with
+Congressional District,Non-Hispanic White Alone,Health Insurance Coverage,No Insurance,insurance,with
+Congressional District,Latino Alone,Health Insurance Coverage,No Insurance,insurance,with
+Congressional District,AIAN Alone,Health Insurance Coverage,No Insurance,insurance,with
+National,Asian Alone,Education,Less than HS,edu,with
+National,NHPI Alone,Education,Less than HS,edu,with
+National,Black Alone,Education,Less than HS,edu,with
+National,Non-Hispanic White Alone,Education,Less than HS,edu,with
+National,Latino Alone,Education,Less than HS,edu,with
+National,AIAN Alone,Education,Less than HS,edu,with
+State,Asian Alone,Education,Less than HS,edu,with
+State,NHPI Alone,Education,Less than HS,edu,with
+State,Black Alone,Education,Less than HS,edu,with
+State,Non-Hispanic White Alone,Education,Less than HS,edu,with
+State,Latino Alone,Education,Less than HS,edu,with
+State,AIAN Alone,Education,Less than HS,edu,with
+County,Asian Alone,Education,Less than HS,edu,with
+County,NHPI Alone,Education,Less than HS,edu,with
+County,Black Alone,Education,Less than HS,edu,with
+County,Non-Hispanic White Alone,Education,Less than HS,edu,with
+County,Latino Alone,Education,Less than HS,edu,with
+County,AIAN Alone,Education,Less than HS,edu,with
+Congressional District,Asian Alone,Education,Less than HS,edu,with
+Congressional District,NHPI Alone,Education,Less than HS,edu,with
+Congressional District,Black Alone,Education,Less than HS,edu,with
+Congressional District,Non-Hispanic White Alone,Education,Less than HS,edu,with
+Congressional District,Latino Alone,Education,Less than HS,edu,with
+Congressional District,AIAN Alone,Education,Less than HS,edu,with
+National,Asian Alone,Education,HS or GED,edu,with
+National,NHPI Alone,Education,HS or GED,edu,with
+National,Black Alone,Education,HS or GED,edu,with
+National,Non-Hispanic White Alone,Education,HS or GED,edu,with
+National,Latino Alone,Education,HS or GED,edu,with
+National,AIAN Alone,Education,HS or GED,edu,with
+State,Asian Alone,Education,HS or GED,edu,with
+State,NHPI Alone,Education,HS or GED,edu,with
+State,Black Alone,Education,HS or GED,edu,with
+State,Non-Hispanic White Alone,Education,HS or GED,edu,with
+State,Latino Alone,Education,HS or GED,edu,with
+State,AIAN Alone,Education,HS or GED,edu,with
+County,Asian Alone,Education,HS or GED,edu,with
+County,NHPI Alone,Education,HS or GED,edu,with
+County,Black Alone,Education,HS or GED,edu,with
+County,Non-Hispanic White Alone,Education,HS or GED,edu,with
+County,Latino Alone,Education,HS or GED,edu,with
+County,AIAN Alone,Education,HS or GED,edu,with
+Congressional District,Asian Alone,Education,HS or GED,edu,with
+Congressional District,NHPI Alone,Education,HS or GED,edu,with
+Congressional District,Black Alone,Education,HS or GED,edu,with
+Congressional District,Non-Hispanic White Alone,Education,HS or GED,edu,with
+Congressional District,Latino Alone,Education,HS or GED,edu,with
+Congressional District,AIAN Alone,Education,HS or GED,edu,with
+National,Asian Alone,Nativity,foreign-born,nativity,that are
+National,NHPI Alone,Nativity,foreign-born,nativity,that are
+National,Black Alone,Nativity,foreign-born,nativity,that are
+National,Non-Hispanic White Alone,Nativity,foreign-born,nativity,that are
+National,Latino Alone,Nativity,foreign-born,nativity,that are
+National,AIAN Alone,Nativity,foreign-born,nativity,that are
+State,Asian Alone,Nativity,foreign-born,nativity,that are
+State,NHPI Alone,Nativity,foreign-born,nativity,that are
+State,Black Alone,Nativity,foreign-born,nativity,that are
+State,Non-Hispanic White Alone,Nativity,foreign-born,nativity,that are
+State,Latino Alone,Nativity,foreign-born,nativity,that are
+State,AIAN Alone,Nativity,foreign-born,nativity,that are
+County,Asian Alone,Nativity,foreign-born,nativity,that are
+County,NHPI Alone,Nativity,foreign-born,nativity,that are
+County,Black Alone,Nativity,foreign-born,nativity,that are
+County,Non-Hispanic White Alone,Nativity,foreign-born,nativity,that are
+County,Latino Alone,Nativity,foreign-born,nativity,that are
+County,AIAN Alone,Nativity,foreign-born,nativity,that are
+Congressional District,Asian Alone,Nativity,foreign-born,nativity,that are
+Congressional District,NHPI Alone,Nativity,foreign-born,nativity,that are
+Congressional District,Black Alone,Nativity,foreign-born,nativity,that are
+Congressional District,Non-Hispanic White Alone,Nativity,foreign-born,nativity,that are
+Congressional District,Latino Alone,Nativity,foreign-born,nativity,that are
+Congressional District,AIAN Alone,Nativity,foreign-born,nativity,that are
+National,Asian Alone,Education,BA or higher,edu,with a
+National,NHPI Alone,Education,BA or higher,edu,with a
+National,Black Alone,Education,BA or higher,edu,with a
+National,Non-Hispanic White Alone,Education,BA or higher,edu,with a
+National,Latino Alone,Education,BA or higher,edu,with a
+National,AIAN Alone,Education,BA or higher,edu,with a
+State,Asian Alone,Education,BA or higher,edu,with a
+State,NHPI Alone,Education,BA or higher,edu,with a
+State,Black Alone,Education,BA or higher,edu,with a
+State,Non-Hispanic White Alone,Education,BA or higher,edu,with a
+State,Latino Alone,Education,BA or higher,edu,with a
+State,AIAN Alone,Education,BA or higher,edu,with a
+County,Asian Alone,Education,BA or higher,edu,with a
+County,NHPI Alone,Education,BA or higher,edu,with a
+County,Black Alone,Education,BA or higher,edu,with a
+County,Non-Hispanic White Alone,Education,BA or higher,edu,with a
+County,Latino Alone,Education,BA or higher,edu,with a
+County,AIAN Alone,Education,BA or higher,edu,with a
+Congressional District,Asian Alone,Education,BA or higher,edu,with a
+Congressional District,NHPI Alone,Education,BA or higher,edu,with a
+Congressional District,Black Alone,Education,BA or higher,edu,with a
+Congressional District,Non-Hispanic White Alone,Education,BA or higher,edu,with a
+Congressional District,Latino Alone,Education,BA or higher,edu,with a
+Congressional District,AIAN Alone,Education,BA or higher,edu,with a
