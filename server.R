@@ -8,7 +8,7 @@
 #
 
 library(shiny)
-library(tidycensus)
+#library(tidycensus)
 library(tidyverse)
 library(feather)
 library(plotly)
