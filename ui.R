@@ -1,11 +1,13 @@
 library(shiny)
 library(readxl)
-library(shinythemes)
+# library(shinythemes)
 library(tidyverse)
 library(DT)
 library(plotly)
-library(shinyjs) #for hiding and showing an input area for the graph
 library(hrbrthemes)
+library(shinyWidgets)
+# library(rintrojs)
+
 # Menu Options:Geography---------------------------------------------
 geography <- c("National",
                "State",
@@ -18,6 +20,35 @@ names(geographyvals) <- geography
 # Menu Options: Racial Groups ---------------------------------------------
 # race <- c("Detailed Asian Alone", "Detailed NHPI Alone", "Asian Alone", "NHPI Alone", "Black Alone", "Non-Hispanic White Alone", "Latino Alone", "AIAN Alone")
 race <- c("Asian Alone", "NHPI Alone", "Black Alone", "Non-Hispanic White Alone", "Latino Alone", "AIAN Alone")
+
+
+# Menu Options: Topics (NON AA OR PI) ----------------------------------------------------
+topic <- c("Educational Attainment", "Health Insurance Coverage", "Limited English Proficiency",
+            "Nativity", "Poverty", "Citizen Voting-Age Population")
+topicval <- c( "edu", "insurance", "LEP", "nativity", "poverty", "CVAP")
+
+topics_dta <- tibble::tribble(
+                                         ~topic,                     ~topic_type,
+                       "Educational Attainment",                  "Less than HS",
+                       "Educational Attainment",                     "HS or GED",
+                       "Educational Attainment",            "Some College or AA",
+                       "Educational Attainment",                  "BA or Higher",
+                    "Health Insurance Coverage",                  "No Insurance",
+                  "Limited English Proficiency",                           "LEP",
+                  "Limited English Proficiency",        "Speak another language",
+                                     "Nativity",                  "foreign-born",
+                                      "Poverty",               "Overall Poverty",
+                "Citizen Voting Age Population", "Citizen Voting-age Population"
+                )
+
+
+names(topicval) <- topic
+
+
+# Menu Options: Detailed Origin -------------------------------------------
+est_detailed_aa <- c("Bangladeshi", "Bhutanese", "Burmese", "Cambodian", "Chinese except Taiwanese", "Filipino", "Hmong", "Indonesian", "Japanese", "Korean", "Laotian", "Malaysian", "Mongolian", "Nepalese", "Okinawan", "Pakistani", "Sri Lankan", "Taiwanese", "Thai", "Vietnamese", "Other Asian specified", "Other Asian not specified", "Two or more Asian")
+est_detailed_nhpi <- c("Samoan", "Tongan", "Other Polynesian", "Guamanian or Chamorro", "Marshallese", "Other Micronesian", "Fijian", "Other Melanesian", "Other Pacific Islander not specified (check box only)", "Two or More NHPI")
+
 
 # Menu Options: Topics -------------------------------------------------
 # est_edu <- c("Less than HS", "HS or GED", "Some College or AA", "BA or higher")
@@ -40,59 +71,44 @@ shinyUI(fluidPage(
   column(3, offset = 1,
          titlePanel("Choose your options"),
          # actionButton("goButton", "Go!"),
-         radioButtons("geo", "Geography",
-                      choices = geographyvals),
-
+         selectizeInput("topic", "Selected Topic:",
+                     choices = "",
+                     options = list(
+                       placeholder = 'Please selection option below',
+                       onInitialize = I('function() { this.setValue(""); }')
+                     )),
+         selectizeInput("geo", "Geography",
+                        choices = "",
+                        options = list(
+                          placeholder = 'Please selection option below',
+                          onInitialize = I('function() { this.setValue(""); }')
+                        )),
          selectizeInput("group", "Select A Racial Group",
-                      choices = race,
-                      options = list(
-                        placeholder = 'Please selection option below',
-                        onInitialize = I('function() { this.setValue(""); }')
-                      )),
-         selectizeInput("topic",
-                     "Selected Topic:",
-                     choices = "",
-                     options = list(
-                       placeholder = 'Please selection option below',
-                       onInitialize = I('function() { this.setValue(""); }')
-                     )),
+                        choices = "",
+                        options = list(
+                          placeholder = 'Please selection option below',
+                          onInitialize = I('function() {this.setValue(""); }')
+                        )),
+         #uiOutput("detailed"),
+         conditionalPanel(condition="input.group=='detailed ethnicity (AAPI alone)' | input.group=='detailed ethnicity (AAPI alone or in combo)'",
+                          selectizeInput("detailed_filter", 
+                                         "Which groups? (up to 3 groups)",
+                                         choices = "",
+                                         multiple = TRUE, 
+                                         options = list(
+                                           placeholder = 'Please selection option below',
+                                           onInitialize = I('function() {this.setValue(""); }'),
+                                           maxItems = 3))),
+         actionButton("do", "Click to see"),
          hr(),
-         # uiOutput("selected_country_UI"),
-         selectizeInput("topic_type",
-                     "Selected Topic Type:",
-                     choices = "",
-                     options = list(
-                       placeholder = 'Please selection option below',
-                       onInitialize = I('function() { this.setValue(""); }')
-                     )),
-         hr(),
-         actionButton("load", "Load Data!"),
-         hr()),
+         checkboxInput("reliable", "Reliable Data ONLY", TRUE)),
   mainPanel(
     h1(""),
     hr(),
-    # textOutput("selected_topic"),
-    # textOutput("selected_topic2"),
-    htmlOutput("meta"),
+    textOutput("selected_topic"),
     tabsetPanel(
-      
-      tabPanel("Table", dataTableOutput("preview")),
-      
-      tabPanel("Graph", 
-        conditionalPanel("input.geo != 'National'", 
-                        fluidRow(selectInput("flgraph", NULL, choices = c("Show highest", "Show lowest"), 
-                                             selected = "Show highest", width = 150), 
-                        numericInput("flgraph2", NULL, value = 10, min = 0, max = 20, step = 1, width = 50))),
-        conditionalPanel("input.geo != 'National'", plotlyOutput("plot1")),
-        conditionalPanel("input.geo == 'National'", htmlOutput("ntlmessage"))),
-      
-      
-      tabPanel("Map", selectizeInput("subgeo", "Select a State:",
-                                  choices = state.name, options = list(
-                                    placeholder = "Please select a sub-geography.", 
-                                    onInitialize = I('function() {this.setValue(""); }')
-                                  )),
-                                  actionButton("mapload", "Load Map!"), plotOutput("map"))
+      tabPanel("Table 1",dataTableOutput("preview")),
+      tabPanel("Table 2",dataTableOutput("percentage"))
     )
     
   )))
