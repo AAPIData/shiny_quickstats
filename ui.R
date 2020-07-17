@@ -63,7 +63,7 @@ est_type <- c("count", "prop")
 # Define UI for application that draws a histogram
 
 shinyUI(fluidPage(
-  theme = "test_style.css",
+  includeCSS("test_style.css"),
   tags$div(
     class = "header", checked = NA,
     tags$img(src = "aapidata.png", style = "align:center; display: block; width:250px; min-width: 200px max; margin-left: auto; margin-right: auto; margin-top:30px;")
