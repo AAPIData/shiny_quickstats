@@ -496,7 +496,7 @@ observeEvent(input$do,{
   )
   
   output$preview <- DT::renderDataTable({
-    DT::datatable(dta_load()[[1]],
+    DT::datatable(topic_choices,
                   rownames = FALSE,
                   caption = htmltools::tags$caption(
                     style = 'caption-side: top; text-align: center; color:#EFA875; font-size:200%;',
