@@ -239,7 +239,7 @@ observeEvent(input$do,{
       return(dta)
       
     }else if(input$geo == "National" & input$topic == "Population"){
-      dta <- read_rds("populationdata_full.RDS")
+      dta <- read_csv("populationdata_full.csv")
       dta <- dta %>% 
         filter(geography=="us") 
       if(grepl("detailed", input$group, fixed=T)){
@@ -285,7 +285,7 @@ observeEvent(input$do,{
       return(list(dta.est, dta.per))
       
     }else if(input$geo == "State" & input$topic == "Population"){
-      dta <- read_rds("populationdata_full.RDS")
+      dta <- read_csv("populationdata_full.csv")
       dta <- dta %>% 
         filter(geography=="state")
       if(grepl("detailed", input$group, fixed=T)){
@@ -331,7 +331,7 @@ observeEvent(input$do,{
       return(list(dta.est, dta.per))
       
     }else if(input$geo == "Congressional District" & input$topic == "Population"){
-      dta <- read_rds("populationdata_full.RDS")
+      dta <- read_csv("populationdata_full.csv")
       dta <- dta %>% 
         filter(geography=="district") %>% 
         separate(NAME, c("district", "state"), ", ")
@@ -383,7 +383,7 @@ observeEvent(input$do,{
       return(list(dta.est, dta.per))
       
     }else if(input$geo == "County" & input$topic == "Population"){
-      dta <- read_rds("populationdata_full.RDS")
+      dta <- read_csv("populationdata_full.csv")
       dta <- dta %>% 
         filter(geography=="county") %>%
         separate(NAME, c("county", "state"), ", ") 
@@ -434,7 +434,7 @@ observeEvent(input$do,{
       return(list(dta.est, dta.per))
       
     }else if(input$geo == "Metro Area" & input$topic == "Population"){
-      dta <- read_rds("populationdata_full.RDS")
+      dta <- read_csv("populationdata_full.csv")
       dta <- dta %>% 
         filter(geography=="Metro Area") 
       if(grepl("detailed", input$group, fixed=T)){
@@ -496,7 +496,7 @@ observeEvent(input$do,{
   )
   
   output$preview <- DT::renderDataTable({
-    DT::datatable(topic_choices,
+    DT::datatable(dta_load()[[1]],
                   rownames = FALSE,
                   caption = htmltools::tags$caption(
                     style = 'caption-side: top; text-align: center; color:#EFA875; font-size:200%;',
