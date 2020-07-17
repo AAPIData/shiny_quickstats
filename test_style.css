@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700");
+
+body > div > div:nth-child(4) > div > footer {
+  font-size: 1.25rem;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Roboto Condensed";
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: white;
+  text-align: left;
+  background-color: #3f3f3f !important;
+}
+
+h2 {
+  color: white !important;
+}
+
+h3 {
+  font-size: 30px;
+}
+li {
+  color: white;
+  font-size: 22px;
+}
+
+label {
+  font-size: large;
+}
+
+label span{
+  color: #de2d26; 
+}
+
+.table {
+  font-size:1.5rem !important;
+  color: white !important;
+  background-color: #E5E7E9 !important;
+}
+
+.table thead{
+  font-size:1.5rem !important;
+  color: white !important;
+
+}
+
+th{
+  background-color:#BDC3C7;
+  color:white;
+ }
+
+td{
+  background-color: #BDC3C7;
+  color: white;
+}
+
+.nav>li>a {
+  font-size: 2rem !important;
+}
+
+#create_report{
+ color: #EE8B46;
+}
+
+#report{
+ color: #EE8B46;
+}
+
+
+div {
+ color: #EFA875;
+}
+
+
+
