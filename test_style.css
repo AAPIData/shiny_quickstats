@@ -4,13 +4,10 @@ body > div > div:nth-child(4) > div > footer {
   font-size: 1.25rem;
 }
 
-<<<<<<< HEAD
 tr:nth-child(4){
   background-color: #adacac;
 }
 
-=======
->>>>>>> 4900d5dff4e18c87a0ee11605b2fcd3eda6ab253
 a {
   color: white;
   text-decoration: underline;
@@ -35,10 +32,7 @@ h2 {
 h3 {
   font-size: 30px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 4900d5dff4e18c87a0ee11605b2fcd3eda6ab253
 li {
   color: white;
   font-size: 22px;
@@ -53,7 +47,6 @@ label span{
 }
 
 .table {
-<<<<<<< HEAD
   font-size: 5rem !important;
   color: white !important;
   background-color:#3f3f3f !important;
@@ -62,21 +55,10 @@ label span{
 .table thead{
   font-size: 2rem !important;
   color:white !important;
-=======
-  font-size:1.5rem !important;
-  color: white !important;
-  background-color: #E5E7E9 !important;
-}
-
-.table thead{
-  font-size:1.5rem !important;
-  color: white !important;
->>>>>>> 4900d5dff4e18c87a0ee11605b2fcd3eda6ab253
 
 }
 
 th{
-<<<<<<< HEAD
   background-color:#3f3f3f !important;
   color: white !important;
  }
@@ -105,15 +87,6 @@ table, th, td {
 #DataTables_Table_0 .form-control{
   background-color: #3f3f3f;
   color: #EE8B46;
-=======
-  background-color:#BDC3C7;
-  color:black;
- }
-
-td{
-  background-color: #BDC3C7;
-  color: black;
->>>>>>> 4900d5dff4e18c87a0ee11605b2fcd3eda6ab253
 }
 
 .nav>li>a {
@@ -130,17 +103,10 @@ td{
 
 
 div {
-<<<<<<< HEAD
  color: #EE8B46;
 }
 
 div p{
   width: 300px !important;
 }
-=======
- color: #EFA875;
-}
-
-
->>>>>>> 4900d5dff4e18c87a0ee11605b2fcd3eda6ab253
 
