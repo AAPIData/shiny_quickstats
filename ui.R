@@ -8,7 +8,10 @@ library(hrbrthemes)
 library(shinyWidgets)
 
 shinyUI(fluidPage(
+<<<<<<< HEAD
   # theme = "test_style.css",
+=======
+>>>>>>> 4900d5dff4e18c87a0ee11605b2fcd3eda6ab253
   includeCSS("test_style.css"),
   tags$div(
     class = "header", checked = NA,
