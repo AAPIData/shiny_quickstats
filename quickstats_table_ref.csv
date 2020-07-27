@@ -1,45 +1,66 @@
-Topic,Geography,Group,Optional_Filter
-Citizen Voting Age Population,National,detailed ethnicity (AAPI alone),Which groups? (up to 3 groups)
-Citizen Voting Age Population,National,AAPI Alone,N/A
-Citizen Voting Age Population,National,AAPI Alone or in combo,N/A
-Citizen Voting Age Population,State,AAPI Alone or in combo,N/A
-Citizen Voting Age Population,County,AAPI Alone or in combo,N/A
-Citizen Voting Age Population,Congressional District,AAPI Alone or in combo,N/A
-Education,National,detailed ethnicity (AAPI alone),Which groups? (up to 3 groups)
-Education,National,detailed ethnicity (AAPI alone or in combo),Which groups? (up to 3 groups)
-Education,State,AAPI Alone,N/A
-Education,County,AAPI Alone,N/A
-Education,Congressional District,AAPI Alone,N/A
-Health Insurance,National,AAPI Alone,N/A
-Health Insurance,State,AAPI Alone,N/A
-Health Insurance,County,AAPI Alone,N/A
-Limited English Proficiency,National,detailed ethnicity (AAPI alone),Which groups? (up to 3 groups)
-Limited English Proficiency,National,detailed ethnicity (AAPI alone or in combo),Which groups? (up to 3 groups)
-Limited English Proficiency,State,AAPI Alone,N/A
-Limited English Proficiency,County,AAPI Alone,N/A
-Limited English Proficiency,Congressional District,AAPI Alone,N/A
-Nativity,National,detailed ethnicity (AAPI alone),Which groups? (up to 3 groups)
-Nativity,National,detailed ethnicity (AAPI alone or in combo),Which groups? (up to 3 groups)
-Nativity,State,AAPI Alone,N/A
-Nativity,County,AAPI Alone,N/A
-Nativity,Congressional District,AAPI Alone,N/A
-Population,National,detailed ethnicity (AAPI alone),Which groups? (up to 3 groups)
-Population,National,detailed ethnicity (AAPI alone or in combo),Which groups? (up to 3 groups)
-Population,State,AAPI Alone,N/A
-Population,State,AAPI Alone or in combo,N/A
-Population,State,detailed ethnicity (AAPI alone),Which groups? (up to 3 groups)
-Population,County,AAPI Alone,N/A
-Population,County,AAPI Alone or in combo,N/A
-Population,County,detailed ethnicity (AAPI alone),Which groups? (up to 3 groups)
-Population,Congressional District,AAPI Alone,N/A
-Population,Congressional District,AAPI Alone or in combo,N/A
-Population,Congressional District,detailed ethnicity (AAPI alone),Which groups? (up to 3 groups)
-Population,Metro Area,detailed ethnicity (AAPI alone),Which groups? (up to 3 groups)
-Population,Metro Area,AAPI Alone,
-Poverty,National,detailed ethnicity (AAPI alone),Which groups? (up to 3 groups)
-Poverty,National,detailed ethnicity (AAPI alone or in combo),Which groups? (up to 3 groups)
-Poverty,State,AAPI Alone,N/A
-Poverty,County,AAPI Alone,N/A
-Poverty,Congressional District,AAPI Alone,N/A
-Undocumented,State,AAPI Alone,N/A
-Undocumented,County,AAPI Alone,N/A
+Topic,Geography,Group,Optional_Filter,,,,
+Citizen Voting Age Population,National,Asian American Alone,N/A,,,,
+Citizen Voting Age Population,National,NHPI Alone,N/A,,,,
+Citizen Voting Age Population,State,Asian American Alone,N/A,,,,
+Citizen Voting Age Population,State,NHPI Alone,N/A,,,,
+Citizen Voting Age Population,County,Asian American Alone,N/A,,,,
+Citizen Voting Age Population,County,NHPI Alone,N/A,,,,
+Citizen Voting Age Population,Congressional District,Asian American Alone,N/A,,,,
+Citizen Voting Age Population,Congressional District,NHPI Alone,N/A,,,,
+Education,National,Asian American Alone,N/A,,,,
+Education,National,NHPI Alone,N/A,,,,
+Education,State,Asian American Alone,N/A,,,,
+Education,State,NHPI Alone,N/A,,,,
+Education,County,Asian American Alone,N/A,,,,
+Education,County,NHPI Alone,N/A,,,,
+Education,Congressional District,Asian American Alone,N/A,,,,
+Education,Congressional District,NHPI Alone,N/A,,,,
+Health Insurance,National,Asian American Alone,N/A,,,,
+Health Insurance,National,NHPI Alone,N/A,,,,
+Health Insurance,State,Asian American Alone,N/A,,,,
+Health Insurance,State,NHPI Alone,N/A,,,,
+Health Insurance,County,Asian American Alone,N/A,,,,
+Health Insurance,County,NHPI Alone,N/A,,,,
+Health Insurance,Congressional District,Asian American Alone,N/A,,,,
+Health Insurance,Congressional District,NHPI Alone,N/A,,,,
+Limited English Proficiency,National,Asian American Alone,N/A,,,,
+Limited English Proficiency,National,NHPI Alone,N/A,,,,
+Limited English Proficiency,State,Asian American Alone,N/A,,,,
+Limited English Proficiency,State,NHPI Alone,N/A,,,,
+Limited English Proficiency,County,Asian American Alone,N/A,,,,
+Limited English Proficiency,County,NHPI Alone,N/A,,,,
+Limited English Proficiency,Congressional District,Asian American Alone,N/A,,,,
+Limited English Proficiency,Congressional District,NHPI Alone,N/A,,,,
+Nativity,National,Asian American Alone,N/A,,,,
+Nativity,National,NHPI Alone,N/A,,,,
+Nativity,State,Asian American Alone,N/A,,,,
+Nativity,State,NHPI Alone,N/A,,,,
+Nativity,County,Asian American Alone,N/A,,,,
+Nativity,County,NHPI Alone,N/A,,,,
+Nativity,Congressional District,Asian American Alone,N/A,,,,
+Nativity,Congressional District,NHPI Alone,N/A,,,,
+Population,National,Detailed ethnicity (AAPI alone),Which groups? (up to 3 groups),,,,
+Population,National,Detailed ethnicity (AAPI alone or in combo),Which groups? (up to 3 groups),,,,
+Population,State,AAPI Alone,N/A,,,,
+Population,State,AAPI Alone or in combo,N/A,,,,
+Population,State,Detailed ethnicity (AAPI alone),Which groups? (up to 3 groups),,,,
+Population,County,AAPI Alone,N/A,,,,
+Population,County,AAPI Alone or in combo,N/A,,,,
+Population,County,Detailed ethnicity (AAPI alone),Which groups? (up to 3 groups),,,,
+Population,Congressional District,AAPI Alone,N/A,,,,
+Population,Congressional District,AAPI Alone or in combo,N/A,,,,
+Population,Congressional District,Detailed ethnicity (AAPI alone),Which groups? (up to 3 groups),,,,
+Population,Metro Area,Detailed ethnicity (AAPI alone),Which groups? (up to 3 groups),,,,
+Population,Metro Area,AAPI Alone,,,,,
+Poverty,National,Asian American Alone,N/A,,,,
+Poverty,National,NHPI Alone,N/A,,,,
+Poverty,State,Asian American Alone,N/A,,,,
+Poverty,State,NHPI Alone,N/A,,,,
+Poverty,County,Asian American Alone,N/A,,,,
+Poverty,County,NHPI Alone,N/A,,,,
+Poverty,Congressional District,Asian American Alone,N/A,,,,
+Poverty,Congressional District,NHPI Alone,N/A,,,,
+Undocumented,National,Detailed Asian American Alone,Which groups? (up to 3 groups),,,,
+Undocumented,National,Asian American Alone,N/A,,,,
+Undocumented,State,Detailed Asian American Alone,Which groups? (up to 3 groups),,,, 
+Undocumented,State,Asian American Alone,N/A,,,,
