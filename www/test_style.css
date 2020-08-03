@@ -6,6 +6,7 @@ body > div > div:nth-child(4) > div > footer {
 
 tr:nth-child(4){
   background-color: #adacac;
+  border-color: #3f3f3f;
 }
 
 a {
@@ -58,36 +59,18 @@ label span{
 
 }
 
-th{
-  background-color:#3f3f3f !important;
-  color: white !important;
- }
-
-td{
-  background-color:#3f3f3f !important;
-  color:white !important;
-}
-
 th, td{
   font-size: 18px;
-}
-
-table, th, td {
-  border: 0.2px solid white !important;
-}
-
-.table th {
-  border: 0.2px solid white !important;
-}
-
-.table td {
-  border: 0.2px solid white !important;
+  color: white;
+  border-color: #3f3f3f !important;
 }
 
 #DataTables_Table_0 .form-control{
   background-color: #3f3f3f;
   color: #EE8B46;
+  font-size: 18px;
 }
+
 
 .nav>li>a {
   font-size: 2rem !important;
@@ -110,3 +93,21 @@ div p{
   width: 300px !important;
 }
 
+/* delete double inner border */
+
+table {
+  border-collapse: collapse !important;
+}
+td,
+th,
+tr {
+  border-collapse: collapse !important;
+}
+table table {
+  border: none;
+}
+table table tr,
+table table td,
+table table th {
+  border: none;
+}

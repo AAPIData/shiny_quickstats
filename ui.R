@@ -70,7 +70,7 @@ shinyUI(fluidPage(
                ".shiny-output-error:before { visibility: hidden; }"
     ),
     h1(""),
-    hr(),
+    # hr(),
     
     fluidRow(
       column(

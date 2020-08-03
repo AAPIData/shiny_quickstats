@@ -40,6 +40,18 @@ cint <- function(x){
   return(x)
 }
 
+#table stripe style function
+rowCallback <- c(
+  "function(row, data, num, index){",
+  "  var $row = $(row);",
+  "  if($row.hasClass('even')){",
+  "    $row.css('background-color', '#3f3f3f');",
+  "  }else{",
+  "    $row.css('background-color', '#808080');",
+  "     }",
+  "}"  
+)
+
 #read in all data
 dta.cvap <- read_csv("https://raw.githubusercontent.com/AAPIData/quickstats_datapull/master/acs_database/cvap_dta.csv")
 dta.edu <- read_csv("https://raw.githubusercontent.com/AAPIData/quickstats_datapull/master/acs_database/education_dta.csv")
@@ -3949,13 +3961,14 @@ shinyServer(function(input, output,session) {
 
     output$preview <- DT::renderDataTable({
       DT::datatable(dta_load()[[1]],
-                    class = 'stripe',
+                    # class = 'stripe',
                     rownames = FALSE,
                     #caption = htmltools::tags$caption(
                       #style = 'caption-side: top; text-align: center; color:#EE8B46; font-size:200%;',
                       #input$topic),
                     extensions = 'Buttons',
                     options = list(
+                      rowCallback = JS(rowCallback),
                       #drawCallback = JS(jst), 
                       dom = 'Btp', pageLength = 25, 
                       buttons = c('copy', 'csv', 'excel', 'print')),
@@ -3966,12 +3979,14 @@ shinyServer(function(input, output,session) {
     output$percentage <- DT::renderDataTable({
       DT::datatable(dta_load()[[2]],
                     rownames = FALSE,
+                    # class = 'stripe',
                     #caption = htmltools::tags$caption(
                       #style = 'caption-side: top; text-align: center; color:#EFA875; font-size:200%;',
                       #input$topic),
                     extensions = 'Buttons',
                     options = list(
                       #drawCallback = JS(jst), 
+                      rowCallback = JS(rowCallback),
                       dom = 'Btp', pageLength = 25, buttons = c('copy', 'csv', 'excel', 'print')
                       ),
                     filter = 'top') 
