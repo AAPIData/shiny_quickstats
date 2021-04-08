@@ -59,9 +59,9 @@ shinyUI(fluidPage(
            marginal error greater or equal to 5,000 will be considered as unreliable."),
          actionButton("do", "Load Data"),
          hr(),
-         downloadButton("report", "Download Report (PDF)"),
-         br(),
-         br(),
+         # downloadButton("report", "Download Report (PDF)"),
+         # br(),
+         # br(),
          actionButton(inputId='ab1', label="Back to AAPI Data", icon = icon("th"), onclick ="window.open('http://aapidata.com', '_blank')")),
   
   mainPanel(
