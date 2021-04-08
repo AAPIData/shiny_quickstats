@@ -3930,7 +3930,7 @@ shinyServer(function(input, output,session) {
       jst <- c("function(settings){",
         "  var datatable = settings.oInstance.api();",
         "  var table = datatable.table().node();",
-        "  var caption = 'Data Source: *2018 Census CVAP Special Tabulation 5-Year Files' ",
+        "  var caption = 'Data Source: *2019 Census CVAP Special Tabulation 5-Year Files' ",
         "  $(table).append('<caption style=\"caption-side: top\">' + caption + '</caption>');",
         "}")
     }else if(input$topic == "Population"){
@@ -3938,14 +3938,14 @@ shinyServer(function(input, output,session) {
         jst <- c("function(settings){",
                 "  var datatable = settings.oInstance.api();",
                 "  var table = datatable.table().node();",
-                "  var caption = 'Data Source: *2018 ACS 1-Year Files' ",
+                "  var caption = 'Data Source: *2019 ACS 1-Year Files' ",
                 "  $(table).append('<caption style=\"caption-side: top\">' + caption + '</caption>');",
                 "}")
       }else{
         jst <- c("function(settings){",
                 "  var datatable = settings.oInstance.api();",
                 "  var table = datatable.table().node();",
-                "  var caption = 'Data Source: *2018 ACS 5-Year Files' ",
+                "  var caption = 'Data Source: *2019 ACS 5-Year Files' ",
                 "  $(table).append('<caption style=\"caption-side: top\">' + caption + '</caption>');",
                 "}")
       }
@@ -3953,7 +3953,7 @@ shinyServer(function(input, output,session) {
       jst <- c("function(settings){",
         "  var datatable = settings.oInstance.api();",
         "  var table = datatable.table().node();",
-        "  var caption = 'Data Source: *2018 ACS 5-Year Files' ",
+        "  var caption = 'Data Source: *2019 ACS 5-Year Files' ",
         "  $(table).append('<caption style=\"caption-side: top\">' + caption + '</caption>');",
         "}")
     }
