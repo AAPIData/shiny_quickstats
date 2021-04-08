@@ -1,2 +1,3 @@
 # shiny_quickstats
-Hosting the Shiny Version of QuickStats
+Hosting the latest Shiny Version of QuickStats
+
